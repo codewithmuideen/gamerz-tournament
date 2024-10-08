@@ -1,0 +1,94 @@
+{
+  "leaderboard": [
+    {
+      "placement": 1,
+      "player": "Adebayo Oyeleye",
+      "gamesPlayed": 20,
+      "wins": 20,
+      "losses": 0,
+      "winLossRatio": "100%",
+      "points": 49
+    },
+    {
+      "placement": 2,
+      "player": "Jane Doe",
+      "gamesPlayed": 18,
+      "wins": 15,
+      "losses": 3,
+      "winLossRatio": "83.33%",
+      "points": 45
+    },
+    {
+      "placement": 3,
+      "player": "John Smith",
+      "gamesPlayed": 19,
+      "wins": 14,
+      "losses": 5,
+      "winLossRatio": "73.68%",
+      "points": 42
+    },
+    {
+      "placement": 4,
+      "player": "Emily Johnson",
+      "gamesPlayed": 20,
+      "wins": 13,
+      "losses": 7,
+      "winLossRatio": "65%",
+      "points": 39
+    },
+    {
+      "placement": 5,
+      "player": "Michael Brown",
+      "gamesPlayed": 18,
+      "wins": 12,
+      "losses": 6,
+      "winLossRatio": "66.67%",
+      "points": 36
+    },
+    {
+      "placement": 6,
+      "player": "Chris Lee",
+      "gamesPlayed": 17,
+      "wins": 11,
+      "losses": 6,
+      "winLossRatio": "64.71%",
+      "points": 33
+    },
+    {
+      "placement": 7,
+      "player": "Sara Wilson",
+      "gamesPlayed": 19,
+      "wins": 10,
+      "losses": 9,
+      "winLossRatio": "52.63%",
+      "points": 30
+    },
+    {
+      "placement": 8,
+      "player": "David Harris",
+      "gamesPlayed": 20,
+      "wins": 9,
+      "losses": 11,
+      "winLossRatio": "45%",
+      "points": 27
+    },
+    {
+      "placement": 9,
+      "player": "Linda Martin",
+      "gamesPlayed": 18,
+      "wins": 8,
+      "losses": 10,
+      "winLossRatio": "44.44%",
+      "points": 24
+    },
+    {
+      "placement": 10,
+      "player": "James Wilson",
+      "gamesPlayed": 20,
+      "wins": 5,
+      "losses": 15,
+      "winLossRatio": "25%",
+      "points": 15
+    }
+  ]
+}
