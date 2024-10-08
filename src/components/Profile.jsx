@@ -5,10 +5,10 @@ const Profile = () => {
   return (
     <div className="profile-section d-flex justify-content-between align-items-start p-4" style={{ marginTop: '-20px', width: '98.8%', backgroundColor: '#1c1c1c' }}>
       {/* Profile Card */}
-      <div className="profile-card text-white p-4 me-3" style={{ flex: '1', backgroundColor: '#1c1c1c' }}>
+      <div className="profile-card text-white p-4 me-3" style={{ flex: '1', backgroundColor: '#1c1c1c', fontWeight:700 }}>
         <h3>Setup your profile</h3>
         <p>Complete your profile to get access to tournaments and other features.</p>
-        <button className="btn" style={{backgroundColor: '#8BC724', borderRadius:0}}> <img src={`${process.env.PUBLIC_URL}/assets/user.png`} alt="Trophy Icon" style={{ height: '20px' }} />Complete Profile</button>
+        <button className="btn man" style={{backgroundColor: '#8BC724', borderRadius:0, fontWeight:900}}> <img src={`${process.env.PUBLIC_URL}/assets/user.png`} alt="Trophy Icon" style={{ height: '20px' }} />Complete Profile</button>
       </div>
 
       {/* Profile Image */}

@@ -31,11 +31,11 @@ const Profile2 = () => {
       </div>
       <div 
         className="profile-card text-white p-4 d-flex justify-content-between align-items-center" 
-        style={{ flex: '1',  backgroundColor: '#1c1c1c', borderRadius:0}}
+        style={{ flex: '1',  backgroundColor: '#1c1c1c', borderRadius:0, marginLeft: '-15px'}}
       >
 
         {/* second */}
-        <div>
+        <div className='mleft'>
         <h3>Quick match</h3>
         <p>Create a tournament and invite <br /> friends to play.</p>
         <button className="btn text-white" style={{ fontWeight:900}}><img src={`${process.env.PUBLIC_URL}/assets/play.png`}alt="Trophy Icon" style={{ height: '20px' }} />Let's Go</button>

@@ -43,7 +43,7 @@ const Navbar = () => {
       src={`${process.env.PUBLIC_URL}/assets/tokens.png`} // Path to your amount icon
       alt="Amount Icon"
     />
-    <span className="ms-0">20,000₦</span>
+    <span className="ms-0">20,0000</span>
   </div>
   <div className="d-flex align-items-center user-info">
     <img

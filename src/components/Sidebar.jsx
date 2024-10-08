@@ -4,10 +4,11 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-    <div className="sidebar text-white" style={{backgroundColor: '#1c1c1c'}}>
+    <div className="sidebar text-white" 
+    style={{backgroundColor: '#1c1c1c',height: '100vh'}}>
       <ul className="list-group list-group-flush">
         <li className="list-group-item text-white d-flex align-items-center" style={{ backgroundColor: '#3b3b3b' }}>
-          <a href="/tournaments" className="text-white text-decoration-none d-flex align-items-center">
+          <a href="/call-of-duty" className="text-white text-decoration-none d-flex align-items-center">
           <img src={`${process.env.PUBLIC_URL}/assets/gamepad.png`} alt="Trophy Icon" style={{ height: '20px', marginRight: '8px' }} /> Tournaments
           </a>
         </li>
@@ -39,7 +40,7 @@ const Sidebar = () => {
       </ul>
       <button className="btn d-flex  text-white align-items-center" style={{
         borderRadius: '0',
-        backgroundColor: '#5F0A07', marginTop:'0px'}}>
+        backgroundColor: '#5F0A07', marginTop:'200px'}}>
       <img src={`${process.env.PUBLIC_URL}/assets/logout.png`} alt="Trophy Icon" style={{ height: '20px', marginRight: '8px' }} /> Log out
       </button>
     </div>
