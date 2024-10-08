@@ -39,7 +39,7 @@ const Sidebar = () => {
       </ul>
       <button className="btn d-flex  text-white align-items-center" style={{
         borderRadius: '0',
-        backgroundColor: '#5F0A07', marginTop:'200px'}}>
+        backgroundColor: '#5F0A07', marginTop:'0px'}}>
       <img src={`${process.env.PUBLIC_URL}/assets/logout.png`} alt="Trophy Icon" style={{ height: '20px', marginRight: '8px' }} /> Log out
       </button>
     </div>
