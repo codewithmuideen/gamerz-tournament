@@ -1,7 +1,6 @@
 .App {
   background-color: #121212;
   color: white;
-  height: 100vh;
 }
 
 .profile-section {
@@ -78,4 +77,106 @@ input:focus::placeholder {
 /* Add this to your CSS file */
 .list-group-item:hover {
   background-color: lightgray; /* Change to your desired light gray color */
+}
+/* Sidebar.css */
+.sidebar .list-group-item:hover {
+  background-color: #3b3b3b; /* Change to the desired hover color */
+}
+
+.sidebar .list-group-item {
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+/* Sidebar.css */
+.sidebar .list-group-item {
+  background-color: transparent; /* Ensure base color is transparent */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.sidebar .list-group-item:hover {
+  background-color: #3b3b3b; /* Change to the desired hover color */
+}
+/* Profile.css */
+.mleft {
+  margin-left: 0; /* Ensure there's no margin on the left */
+  padding: 0; /* Ensure no padding */
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+.profile-section {
+  margin-top: -20px;
+  background-color: #1c1c1c;
+  width: 98.8%;
+}
+
+.profile2-section {
+  margin-top: -40px;
+  background-color: #121212;
+  width: 100%;
+  gap: 1rem; /* Adds gap between the cards */
+}
+
+.profile-card {
+  background-color: #1c1c1c;
+  border-radius: 0;
+  flex: 1;
+  margin: 10px; /* Added margin for spacing between cards */
+}
+
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column; /* Stack items vertically */
+    padding: 20px; /* Adjust padding for mobile */
+    width: 110%; /* Ensure full width */
+  }
+
+  .profile-card {
+    margin-bottom: 1rem; /* Add spacing below cards */
+    width: 110%; /* Make cards full width */
+  }
+  .profile2-section {
+    flex-direction: column; /* Stack cards vertically on mobile */
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  .profile-card h3 {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .profile-card p {
+    font-size: 0.9rem; /* Adjust paragraph font size */
+  }
+
+  .man {
+    width: 90%; /* Make button full width */
+    font-size: 0.9rem; /* Adjust button font size */
+  }
+}
+.table-responsive {
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.table {
+  min-width: 600px; /* Optional: Set a minimum width for the table */
+}
+
+@media (max-width: 576px) {
+  .table th,
+  .table td {
+    padding: 0.5rem; /* Reduce padding on small screens */
+    font-size: 0.8rem; /* Adjust font size */
+  }
+}
+@media (max-width: 768px) {
+  .table {
+    font-size: 0.8rem; /* Reduce font size on small screens */
+  }
 }
